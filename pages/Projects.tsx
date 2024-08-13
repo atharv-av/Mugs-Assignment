@@ -36,7 +36,7 @@ const ProjectsPage = () => {
       </p>
 
       <Tabs defaultValue="web" className="w-full max-w-3xl">
-        <TabsList className="flex justify-center gap-3 bg-transparent dark:bg-black flex-wrap">
+        <TabsList className="flex justify-center gap-3 bg-transparent dark:bg-[#1E1E1E] flex-wrap">
           <TabsTrigger
             className="font-normal text-base px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors border border-[#545454]"
             value="all"
@@ -74,7 +74,7 @@ const ProjectsPage = () => {
         {projects.map((project, index) => (
           <Card
             key={index}
-            className="flex flex-col gap-2 p-6 bg-white border-none dark:border-none shadow-none dark:shadow-none dark:bg-black"
+            className="flex flex-col gap-2 p-6 bg-white border-none dark:border-none shadow-none dark:shadow-none dark:bg-[#1E1E1E]"
           >
             <Image
               src={project.image}

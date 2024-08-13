@@ -17,7 +17,7 @@ export function DarkModeSwitch() {
   return (
     <div className="mx-4 md:mx-12 lg:mx-32">
     <Button onClick={() => setDarkMode(!darkMode)}
-          className="md:h-12 md:w-12 h-10 w-10 rounded-lg p-2 bg-white dark:bg-black border-none shadow-none dark:hover:bg-white">
+          className="md:h-12 md:w-12 h-10 w-10 rounded-lg p-2 bg-white dark:bg-[#1E1E1E] border-none shadow-none dark:hover:bg-white">
           <svg className="fill-violet-700 block dark:hidden" fill="currentColor" viewBox="0 0 20 20">
               <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
           </svg>
