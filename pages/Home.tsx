@@ -5,7 +5,7 @@ import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 import Link from "next/link";
 
-export const HomePage = () => {
+const HomePage = () => {
   return (
     <section
       id="home"
@@ -57,3 +57,5 @@ export const HomePage = () => {
     </section>
   );
 };
+
+export default HomePage;

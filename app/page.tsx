@@ -3,7 +3,7 @@ import React from "react";
 import Navbar from "@/components/Header";
 import MobileHeader from "@/components/MobileHeader";
 import AboutPage from "@/pages/About";
-import { HomePage } from "@/pages/Home";
+import HomePage from "@/pages/Home";
 import ServicesPage from "@/pages/Services";
 import ProjectsPage from "@/pages/Projects";
 import TestimonialsPage from "@/pages/Testimonials";
