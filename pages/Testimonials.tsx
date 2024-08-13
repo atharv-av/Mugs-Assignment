@@ -12,14 +12,14 @@ const testimonials = [
       "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
   },
   {
-    image: "/images/testimonial-2.png",
+    image: "/images/testimonial-1.png",
     name: "Name",
     role: "CEO",
     quote:
       "Lorem ipsum dolor sit amet consectetur. In enim cursus odio accumsan. Id leo urna velit neque mattis id tellus arcu condimentum. Augue dictum dolor elementum convallis dignissim malesuada commodo ultrices.",
   },
   {
-    image: "/images/testimonial-1.png",
+    image: "/images/testimonial-2.png",
     name: "Name",
     role: "CEO",
     quote:
@@ -35,7 +35,7 @@ const testimonials = [
 ];
 
 const TestimonialsPage = () => {
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const [currentIndex, setCurrentIndex] = useState(1);
 
   return (
     <section id="testimonials" className="flex flex-col gap-8 items-center justify-center font-poppins py-16">
@@ -55,7 +55,7 @@ const TestimonialsPage = () => {
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
-              className={`w-2/3 rounded-lg flex-shrink-0 transition-all duration-300 ${
+              className={`w-3/5 rounded-lg flex-shrink-0 transition-all duration-300 ${
                 index === currentIndex
                   ? "scale-100 opacity-100"
                   : "scale-90 opacity-50"

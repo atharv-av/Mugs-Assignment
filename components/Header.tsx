@@ -30,6 +30,14 @@ export const menuList = [
 ];
 
 const Navbar = () => {
+  const handleDownload = () => {
+    const link = document.createElement("a");
+    link.href = "/resume.pdf";
+    link.download = "Muhammad Umair - Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <header className="hidden lg:block">
       <div className="mx-auto flex py-5 flex-col md:flex-row items-center md:justify-between">
@@ -64,7 +72,7 @@ const Navbar = () => {
             </Link>
           ))}
           <Button
-            onClick={() => {}}
+            onClick={handleDownload}
             className="bg-[#FD6F00] dark:bg-[#FD6F00] hover:font-semibold dark:hover:bg-white dark:hover:text-black"
           >
             Download CV

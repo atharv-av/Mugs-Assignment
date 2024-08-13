@@ -1,13 +1,21 @@
+"use client"
+
+import React from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
-import React from "react";
+import toast, { Toaster } from "react-hot-toast";
 
 const ContactPage = () => {
+  const handleContact = () => {
+    toast.success("Email sent successfully!");
+  };
+
   return (
     <section
       id="contact"
       className="flex flex-col gap-8 items-center justify-center font-poppins py-16"
     >
+      <Toaster /> 
       <h2 className="text-5xl text-center font-semibold dark:text-white">
         Lets Design Together
       </h2>
@@ -21,7 +29,10 @@ const ContactPage = () => {
           placeholder="Email"
           className="bg-[##F8F8F8] border border-[#AFAFAF] w-2/5"
         />
-        <Button className="bg-[#FD6F00] dark:bg-[#FD6F00] hover:font-semibold dark:hover:bg-white dark:hover:text-black">
+        <Button
+          className="bg-[#FD6F00] dark:bg-[#FD6F00] hover:font-semibold dark:hover:bg-white dark:hover:text-black"
+          onClick={handleContact}
+        >
           Contact Me
         </Button>
       </div>
