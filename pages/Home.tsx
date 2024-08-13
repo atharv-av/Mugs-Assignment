@@ -35,19 +35,19 @@ export const HomePage = () => {
         <div className="flex flex-row items-center gap-4 justify-center relative md:bottom-36 lg:bottom-20 md:mb-0 mb-8">
           <FaFacebook
             size={32}
-            className="hover:text-[#FD6F00] cursor-pointer"
+            className="hover:text-[#FD6F00] dark:text-white cursor-pointer dark:hover:text-[#FD6F00]"
           />
           <FaTwitter
             size={32}
-            className="hover:text-[#FD6F00] cursor-pointer"
+            className="hover:text-[#FD6F00] dark:text-white cursor-pointer dark:hover:text-[#FD6F00]"
           />
           <FaInstagram
             size={32}
-            className="hover:text-[#FD6F00] cursor-pointer"
+            className="hover:text-[#FD6F00] dark:text-white cursor-pointer dark:hover:text-[#FD6F00]"
           />
           <FaLinkedin
             size={32}
-            className="hover:text-[#FD6F00] cursor-pointer"
+            className="hover:text-[#FD6F00] dark:text-white cursor-pointer dark:hover:text-[#FD6F00]"
           />
         </div>
       </div>

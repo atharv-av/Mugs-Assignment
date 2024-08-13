@@ -39,7 +39,7 @@ const ServicesPage = () => {
   return (
     <section id="services" className="flex flex-col gap-5 items-center justify-center font-poppins">
       <p className="text-6xl font-semibold dark:text-white">Services</p>
-      <p className="text-base font-semibold dark:text-white md:w-3/5 text-center">
+      <p className="font-normal text-base dark:text-white md:w-3/5 text-center">
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
         lectus netus in. Aliquet donec morbi convallis pretium
       </p>

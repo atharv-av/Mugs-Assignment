@@ -27,8 +27,10 @@ const ProjectsPage = () => {
       id="services"
       className="flex flex-col gap-5 items-center justify-center lg:mt-16 font-poppins"
     >
-      <p className="text-6xl text-center font-semibold dark:text-white">My Projects</p>
-      <p className="text-base font-semibold dark:text-white md:w-3/5 text-center">
+      <p className="text-6xl text-center font-semibold dark:text-white">
+        My Projects
+      </p>
+      <p className="font-normal text-base dark:text-white md:w-3/5 text-center">
         Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris
         est risus lectus. Phasellus consequat urna tellus
       </p>
@@ -36,31 +38,31 @@ const ProjectsPage = () => {
       <Tabs defaultValue="web" className="w-full max-w-3xl">
         <TabsList className="flex justify-center gap-3 bg-transparent dark:bg-black flex-wrap">
           <TabsTrigger
-            className="font-normal text-xl px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors"
+            className="font-normal text-base px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors border border-[#545454]"
             value="all"
           >
             All
           </TabsTrigger>
           <TabsTrigger
-            className="font-normal text-xl px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors"
+            className="font-normal text-base px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors border border-[#545454]"
             value="ui-ux"
           >
             UI/UX
           </TabsTrigger>
           <TabsTrigger
-            className="font-normal text-xl px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors"
+            className="font-normal text-base px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors border border-[#545454]"
             value="web"
           >
             Web Design
           </TabsTrigger>
           <TabsTrigger
-            className="font-normal text-xl px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors"
+            className="font-normal text-base px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors border border-[#545454]"
             value="app"
           >
             App Design
           </TabsTrigger>
           <TabsTrigger
-            className="font-normal text-xl px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors"
+            className="font-normal text-base px-4 py-2 bg-[#F8F8F8] dark:bg-white text-black dark:text-black rounded-lg hover:bg-[#FD6F00] hover:text-white transition-colors border border-[#545454]"
             value="graphic"
           >
             Graphic Design

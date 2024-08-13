@@ -6,6 +6,8 @@ import AboutPage from "@/pages/About";
 import { HomePage } from "@/pages/Home";
 import ServicesPage from "@/pages/Services";
 import ProjectsPage from "@/pages/Projects";
+import TestimonialsPage from "@/pages/Testimonials";
+import ContactPage from "@/pages/Contact";
 
 const Home = () => {
   return (
@@ -15,7 +17,9 @@ const Home = () => {
       <HomePage />
       <AboutPage />
       <ServicesPage />
-      <ProjectsPage /> 
+      <ProjectsPage />
+      <TestimonialsPage />
+      <ContactPage />
     </div>
   );
 };
