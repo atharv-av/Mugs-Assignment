@@ -46,13 +46,13 @@ const MobileHeader = () => {
       <SheetContent>
       <div className="flex flex-col gap-8 font-normal font-poppins py-10">
           {menuList.map((item, index) => (
-            <p
+            <Link
               key={index}
               className="hover:font-semibold text-lg cursor-pointer dark:text-white"
-              id={`${item.id}`}
+              href={`${item.id}`}
             >
               {item.name}
-            </p>
+            </Link>
           ))}
           <Button
             onClick={() => {}}

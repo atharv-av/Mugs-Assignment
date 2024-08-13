@@ -55,13 +55,13 @@ const Navbar = () => {
         <DarkModeSwitch />
         <div className="md:ml-auto flex items-center text-base justify-center gap-8 font-normal font-poppins">
           {menuList.map((item, index) => (
-            <p
+            <Link
               key={index}
               className="hover:font-semibold cursor-pointer dark:text-white"
-              id={`${item.id}`}
+              href={`${item.id}`}
             >
               {item.name}
-            </p>
+            </Link>
           ))}
           <Button
             onClick={() => {}}
