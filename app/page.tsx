@@ -5,6 +5,7 @@ import MobileHeader from "@/components/MobileHeader";
 import AboutPage from "@/pages/About";
 import { HomePage } from "@/pages/Home";
 import ServicesPage from "@/pages/Services";
+import ProjectsPage from "@/pages/Projects";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <HomePage />
       <AboutPage />
       <ServicesPage />
+      <ProjectsPage /> 
     </div>
   );
 };

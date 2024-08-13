@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui/button";
 import React from "react";
 
+import { Button } from "@/components/ui/button";
 import { FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 
