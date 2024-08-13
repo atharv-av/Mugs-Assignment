@@ -3,6 +3,8 @@
 import Image from "next/image";
 import React, { useState } from "react";
 
+import { CgQuote } from "react-icons/cg";
+
 const testimonials = [
   {
     image: "/images/testimonial-1.png",
@@ -38,8 +40,13 @@ const TestimonialsPage = () => {
   const [currentIndex, setCurrentIndex] = useState(1);
 
   return (
-    <section id="testimonials" className="flex flex-col gap-8 items-center justify-center font-poppins py-16">
-      <h2 className="text-5xl text-center font-semibold dark:text-white">Testimonials</h2>
+    <section
+      id="testimonials"
+      className="flex flex-col gap-8 items-center justify-center font-poppins py-16"
+    >
+      <h2 className="text-5xl text-center font-semibold dark:text-white">
+        Testimonials
+      </h2>
       <p className="w-3/5 font-normal text-base text-center max-w-2xlsemiboldfont-semibold dark:text-white">
         Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh
         lectus netus in. Aliquet donec morbi convallis pretium
@@ -77,9 +84,11 @@ const TestimonialsPage = () => {
                   />
                 </div>
                 <div className="flex-grow">
-                  <blockquote className="text-[#424242] italic mb-4">
-                    "{testimonial.quote}"
-                  </blockquote>
+                  <div className="text-[#424242] italic mb-4 relative">
+                    <CgQuote className="text-[#FD6F00] text-[35px] absolute top-[-0.5em] left-[-0.8em]" />
+                    {testimonial.quote}
+                    <CgQuote className="text-[#FD6F00] text-[35px] absolute bottom-[-0.5em] right-[1em]" />
+                  </div>
                   <p className="font-bold text-lg">{testimonial.name}</p>
                   <p className="text-gray-500">{testimonial.role}</p>
                 </div>
