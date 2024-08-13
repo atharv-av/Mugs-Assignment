@@ -31,8 +31,8 @@ export const menuList = [
 
 const Navbar = () => {
   return (
-    <header className="hidden lg:block px-16">
-      <div className="mx-auto flex p-5 flex-col md:flex-row items-center md:justify-between">
+    <header className="hidden lg:block">
+      <div className="mx-auto flex py-5 flex-col md:flex-row items-center md:justify-between">
         <Link
           href="#home"
           className="flex title-font font-medium items-center mb-4 md:mb-0"
@@ -65,7 +65,7 @@ const Navbar = () => {
           ))}
           <Button
             onClick={() => {}}
-            className="bg-[#FD6F00] dark:bg-[#FD6F00] hover:font-semibold"
+            className="bg-[#FD6F00] dark:bg-[#FD6F00] hover:font-semibold dark:hover:bg-white dark:hover:text-black"
           >
             Download CV
           </Button>

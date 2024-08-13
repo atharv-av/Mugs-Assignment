@@ -8,12 +8,7 @@ import Link from "next/link";
 
 import {
   Sheet,
-  SheetClose,
   SheetContent,
-  SheetDescription,
-  SheetFooter,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
 import { Button } from "./ui/button";
@@ -61,7 +56,7 @@ const MobileHeader = () => {
           ))}
           <Button
             onClick={() => {}}
-            className="bg-[#FD6F00] dark:bg-[#FD6F00] hover:font-semibold"
+            className="bg-[#FD6F00] dark:bg-[#FD6F00] hover:font-semibold dark:hover:bg-white dark:hover:text-black"
           >
             Download CV
           </Button>
